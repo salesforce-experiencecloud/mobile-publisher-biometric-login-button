@@ -1,0 +1,12 @@
+<template>
+      <div class="slds-var-m-around_medium" if:false={hideComponent}>
+        Use device biometrics capabilities to verify current user is indeed device owner:
+        <lightning-button
+          variant="brand"
+          label="Verify" 
+          title="Verify device ownership using biometrics"
+          onclick={handleVerifyClick}
+          class="slds-var-m-left_x-small customBiometricButton">
+        </lightning-button>
+      </div>
+</template>
